@@ -2448,6 +2448,6 @@ city = {
 }
 
 def storeCity():
-    city_file = open('../city.pkl', 'wb')
+    city_file = open('resources/city.pkl', 'wb')
     pickle.dump(city, city_file)
     city_file.close()

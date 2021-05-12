@@ -5,7 +5,7 @@ import requests
 
 
 def getCityTemp(cityName):
-    with open("../city.pkl", 'rb') as cityInfo:
+    with open("resources/city.pkl", 'rb') as cityInfo:
         city = pickle.load(cityInfo)
 
     cityNumber = city[cityName]
